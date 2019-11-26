@@ -1,3 +1,16 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.button.editortools-btn {
+  &:extend(.ui.blue.button all);
+}
+
+.ui.button.exit-tutorial-btn {
+  &:extend(.ui.blue.button all);
+}
+
+/* import dialog button */
+.ui.button.import-dialog-btn {
+  &:extend(.ui.inverted.button all);
+}
