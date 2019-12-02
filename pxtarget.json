@@ -163,6 +163,16 @@
           "insertionMarker": "#FFFFFF",
           "insertionMarkerOpacity": 0.5
         },
+        "blockColors": {
+          "loops": "#40bf4a",
+          "logic": "#4cbfe6",
+          "math": "#9966ff",
+          "variables": "#FF6680",
+          "text": "#ffab19",
+          "advanced": "#00272B",
+          "functions": "#005a9e",
+          "arrays": "#8A1C7C"
+        },
         "allowPackageExtensions": true,
         "alwaysGithubItem": true,
         "monacoColors": {

@@ -6,7 +6,7 @@
       Page
 ---------------*/
 
-@pageBackground      : #F9F9F9;
+@pageBackground      : @grey;
 
 /*-------------------
      Fonts
@@ -35,6 +35,7 @@
 @grey             : #3C444A;
 @darkGrey         : #292F36;
 @orange           : #d25b33;
+@mustard          : #E4BD7C;
 @pink             : #fd79a8;
 @purple           : #8073E5;
 @red              : #ff7675;
@@ -73,9 +74,11 @@
    Menu
 --------------------*/
 
-@mainMenuBackground: @blue;
+@mainMenuBackground: @mustard;
 @mainMenuInvertedBackground: @mainMenuBackground;
-@mainMenuTutorialBackground: @orange;
+@mainMenuTutorialBackground: @mustard;
+
+@mainMenuHeight: 6rem;
 
 @mainMenuBlocksJsToggleColor: @primaryColor;
 
@@ -93,11 +96,12 @@
    Background
 --------------------*/
 
-@simulatorBackground: #E8EDF1;
-@editorToolsBackground: #E8EDF1;
+@simulatorBackground: @darkGrey;
+@editorToolsBackground: @simulatorBackground;
 @blocklySvgColor: #F9F9F9;
 
 @homeScreenBackground: #ecf0f1;
+@contentBackground: @grey;
 
 /*-------------------
    Full screen
@@ -110,7 +114,7 @@
    Editor
 --------------------*/
 
-@blocklyToolboxColor: white;
+@blocklyToolboxColor: @grey;
 @trashIconColor: @primaryColor;
 
 /*-------------------
