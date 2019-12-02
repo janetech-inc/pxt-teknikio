@@ -98,7 +98,7 @@
 
 @simulatorBackground: @darkGrey;
 @editorToolsBackground: @simulatorBackground;
-@blocklySvgColor: #F9F9F9;
+@blocklySvgColor: @grey;
 
 @homeScreenBackground: #ecf0f1;
 @contentBackground: @grey;
