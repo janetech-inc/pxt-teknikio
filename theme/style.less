@@ -27,11 +27,29 @@
 
 #editortools { // #editorTools = footer
   background-color: #FFFFFF;
+  
+  .ui.icon.small.buttons {
+    button {
+      background-color: #FFFFFF;
+      border: 2px solid @grey;
+      opacity: 1 !important;
+
+      &:last-child {
+        border-left: none;
+      }
+
+      .icon {
+        color: @grey;
+      }
+    }
+  }
 }
 
 #downloadArea {
   background: transparent !important; // covers top left area of footer
 }
+
+/* Icons */
 
 /* Tutorial hint dialog */
 .ui.modal.hintdialog {
