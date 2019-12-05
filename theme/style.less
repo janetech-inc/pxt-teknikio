@@ -28,18 +28,24 @@
 #editortoggle {
   border-radius: 5px !important;
 
-  .ui.item.link.blocks-menuitem {
-    border-radius: 0px !important;
-    background: transparent !important;
-  }
-
-  .ui.item.link.javascript-menuitem {
+  .ui.item.link.blocks-menuitem, .ui.item.link.javascript-menuitem {
+    color: black;
     border-radius: 0px !important;
     background: transparent !important;
   }
 
   .ui.item.toggle {
     border-radius: 0px !important;
+  }
+
+  .menubar .ui.menu.fixed .item.editor-menuitem .ui.grid {
+    background: black;
+  }
+}
+
+#mainmenu {
+  .ui.logo {
+    display: none;
   }
 }
 
@@ -57,16 +63,13 @@
       &:last-child {
         border-left: none;
       }
-
-      .icon {
-        color: @grey;
-      }
     }
   }
 }
 
 #downloadArea {
   background: transparent !important; // covers top left area of footer
+  display: none; // stop pushing other elements to the right
 }
 
 /* Icons */

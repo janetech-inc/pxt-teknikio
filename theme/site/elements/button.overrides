@@ -2,12 +2,8 @@
          Site Overrides
 *******************************/
 
-.ui.button.editortools-btn {
-  &:extend(.ui.blue.button all);
-}
-
-.ui.button.exit-tutorial-btn {
-  &:extend(.ui.blue.button all);
+.ui.button {
+  border-radius: -1px !important;
 }
 
 /* import dialog button */

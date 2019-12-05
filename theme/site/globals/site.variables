@@ -74,11 +74,11 @@
    Menu
 --------------------*/
 
-@mainMenuBackground: @mustard;
+@mainMenuBackground: #FFFFFF;
 @mainMenuInvertedBackground: @mainMenuBackground;
 @mainMenuTutorialBackground: @mustard;
 
-@mainMenuHeight: 6rem;
+@mainMenuHeight: 5.5rem;
 
 @mainMenuBlocksJsToggleColor: @primaryColor;
 
