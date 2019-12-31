@@ -20,7 +20,7 @@
  */
 
 
-//% weight=50 color=#51031D icon="" block="DEVICES"
+//% weight=50 color=#27213D icon="" block="DEVICES"
 namespace devices {
 
   /**
@@ -57,10 +57,10 @@ namespace variables {}
 //% weight=80 icon="f698"
 namespace math {}
 
-//% weight=65 icon="f01e"
+//% weight=5 icon="f01e"
 namespace loops {}
 
-//% weight=60
+//% weight=0
 namespace logic {}
 
 //% advanced=true
